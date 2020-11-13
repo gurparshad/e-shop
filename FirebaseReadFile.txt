@@ -1,0 +1,10 @@
+adding stripe 👍 through these two commands:
+---> npm i @stripe/react-stripe-js
+---> npm i @stripe/stripe-js 
+
+run the localhost fo rfirebase 
+--> firebase emulators:start
+
+
+deploy the function / cloud function / backend
+firebase deploy --only functions

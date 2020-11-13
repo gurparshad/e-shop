@@ -33,11 +33,12 @@ export default function Header() {
                         {user? user.email :'Hello Guest'}
                     </span>
                     <span className="header__optionLIneTwo">
-                        {user? 'Sign Out' : 'Sign In'}
+                        Hello, {user? 'Sign Out' : 'Sign In'}
                     </span>
                 </div>
                 </Link>
-
+                
+                <Link to ="/orders">
                 <div className="header__option">
                 <span className="header__optionLineOne">
                         Returns
@@ -46,6 +47,8 @@ export default function Header() {
                         & Orders
                     </span>
                 </div>
+                </Link>
+
                 <div className="header__option">
                 <span className="header__optionLineOne">
                         Your
