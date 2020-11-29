@@ -30,10 +30,10 @@ export default function Header() {
                 <Link to={!user && '/login'}>
                 <div onClick={handleAuthentication} className="header__option">
                     <span className="header__optionLineOne">
-                        {user? user.email :'Hello Guest'}
+                    Hello, {user? user.email :'Hello Guest'}
                     </span>
                     <span className="header__optionLIneTwo">
-                        Hello, {user? 'Sign Out' : 'Sign In'}
+                         {user? 'Sign Out' : 'Sign In'}
                     </span>
                 </div>
                 </Link>
